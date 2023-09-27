@@ -13,9 +13,9 @@ const Banner = () => {
         <div className="hero-overlay bg-white bg-opacity-90"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="text-2xl md:text-3xl lg first-letter::text-5xl font-bold text-black mb-10">I Grow By Helping People In Need</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-black mb-10">I Grow By Helping People In Need</h1>
             <input className='p-2 text-black md:p-4 md:w-96 border border-[#DEDEDE] ' placeholder='Search here....' type="text" />
-            <button className="bg-[#FF444A] rounded-r-lg p-2 md:p-4">Search</button>
+            <button className="bg-[#FF444A] rounded-r-lg p-2 text-white md:py-4 md:px-6">Search</button>
           </div>
         </div>
       </div>

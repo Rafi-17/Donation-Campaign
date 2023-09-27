@@ -6,7 +6,7 @@ const Card = ({ card }) => {
 
   return (
     <div>
-      <Link to={`/${id}`}>
+      <Link to={`card/${id}`}>
         <div
           style={{ backgroundColor: card_color }}
           className="card-compact md:rounded-lg"
