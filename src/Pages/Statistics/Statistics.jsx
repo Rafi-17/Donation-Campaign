@@ -1,10 +1,7 @@
 
-import { useState } from 'react';
 import { Cell, Pie, PieChart } from 'recharts';
 
 const Statistics=()=>{
-  // const [value,setItem]=useState(0);
-  // const 
 
   const donatedItem=JSON.parse(localStorage.getItem('donate'));
   console.log(donatedItem);
@@ -21,7 +18,7 @@ const Statistics=()=>{
       const COLORS = ['#FF444A','#00C49F'];
 
       const RADIAN = Math.PI / 180;
-const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.3;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
