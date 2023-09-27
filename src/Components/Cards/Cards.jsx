@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import Card from '../Card/Card';
-// import { useState } from 'react';
 
 const Cards = ({displayJobs}) => {
 

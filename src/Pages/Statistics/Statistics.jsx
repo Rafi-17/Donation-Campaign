@@ -48,7 +48,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
             ))}
           </Pie>
         </PieChart>
-        <div className='flex justify-center gap-14'>
+        <div className='flex flex-col md:flex-row items-center justify-center gap-2 md:gap-14'>
           <div className='flex gap-4 items-center'>
             <p>Your Donation</p>
             <div className='w-[80px] h-[12px] rounded-md bg-[#00C49F]'></div>
